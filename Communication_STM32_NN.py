@@ -1,7 +1,7 @@
 import serial
 import numpy as np
 
-PORT = "/dev/tty.usbmodem1422303"
+PORT = "/dev/tty.usbmodem142103"
 
 
 def synchronise_UART(serial_port):
@@ -50,7 +50,7 @@ def read_output_from_STM32(serial_port):
     Returns:
     A list of float values obtained by dividing each byte by 255.
     """
-    output = serial_port.read(10)
+    output = serial_port.read(1)
 
     float_values = [int(out)/255 for out in output]
     return float_values
