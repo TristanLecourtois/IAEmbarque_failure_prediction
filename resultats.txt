@@ -1,0 +1,104 @@
+----- Iteration 280 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.93
+
+----- Iteration 281 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.94
+
+----- Iteration 282 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.94
+
+----- Iteration 283 -----
+   Expected output: 0
+   Received output: [0.01568627450980392]
+----------------------- Accuracy: 0.94
+
+----- Iteration 284 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.95
+
+----- Iteration 285 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.95
+
+----- Iteration 286 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.95
+
+----- Iteration 287 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.96
+
+----- Iteration 288 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.96
+
+----- Iteration 289 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.96
+
+----- Iteration 290 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.97
+
+----- Iteration 291 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.97
+
+----- Iteration 292 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.97
+
+----- Iteration 293 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.98
+
+----- Iteration 294 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.98
+
+----- Iteration 295 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.98
+
+----- Iteration 296 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.99
+
+----- Iteration 297 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.99
+
+----- Iteration 298 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 0.99
+
+----- Iteration 299 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 1.00
+
+----- Iteration 300 -----
+   Expected output: 0
+   Received output: [0.0]
+----------------------- Accuracy: 1.00
