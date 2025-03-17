@@ -16,6 +16,8 @@ This student project focuses on developing a **deep neural network (DNN)** for *
    
 ## Data Preprocessing
 
+The **AI4I 2020 Predictive Maintenance Dataset** contains sensor readings and operational conditions of industrial machinery. It is used to predict potential failures based on key metrics such as temperature, vibration, and pressure.
+
 ## Model Development
 ### Neural Network Architecture
 - Description of the model structure
