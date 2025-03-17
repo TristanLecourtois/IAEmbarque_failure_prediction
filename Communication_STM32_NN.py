@@ -1,8 +1,7 @@
 import serial
 import numpy as np
 
-PORT = "/dev/tty.usbmodem142103"
-
+PORT = "COM5"
 
 def synchronise_UART(serial_port):
     """
@@ -81,8 +80,8 @@ def evaluate_model_on_STM32(iterations, serial_port):
 
 
 if __name__ == '__main__':
-    X_test = np.load("./MNIST_xtest_NN_C2_16_10.npy")
-    Y_test = np.load("./MNIST_ytest_NN_C2_16_10.npy")
+    X_test = np.load("ia_machines\X_test.npy")
+    Y_test = np.load("ia_machines\Y_test.npy")
 
     with serial.Serial(PORT, 115200, timeout=1) as ser:
         print("Synchronising...")
@@ -90,4 +89,4 @@ if __name__ == '__main__':
         print("Synchronised")
 
         print("Evaluating model on STM32...")
-        error = evaluate_model_on_STM32(100, ser)
+        error = evaluate_model_on_STM32(300, ser)
