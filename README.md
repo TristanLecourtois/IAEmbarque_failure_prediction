@@ -18,6 +18,26 @@ This student project focuses on developing a **deep neural network (DNN)** for *
 
 The **AI4I 2020 Predictive Maintenance Dataset** contains sensor readings and operational conditions of industrial machinery. It is used to predict potential failures based on key metrics such as temperature, vibration, and pressure.
 
+#### Step 1: Failure Detection Model
+- The first model is a **binary classification model** that predicts whether a machine is functioning normally (`0`) or has failed (`1`).
+- **Inputs (X):**
+  - Air temperature [K]
+  - Process temperature [K]
+  - Rotational speed [rpm]
+  - Torque [Nm]
+  - Tool wear [min]
+- **Output (y):**
+  - Machine failure (Binary: `0` = No failure, `1` = Failure)
+
+#### Step 2: Failure Type Classification Model
+- If a failure is detected, a second model identifies the **type of failure**.
+- **Output labels (y):**
+  - **TWF** (Tool Wear Failure)
+  - **HDF** (Heat Dissipation Failure)
+  - **PWF** (Power Failure)
+  - **OSF** (Overstrain Failure)
+  - **RNF** (Random Failure)
+
 ## Model Development
 ### Neural Network Architecture
 - Description of the model structure
