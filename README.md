@@ -11,7 +11,8 @@ This student project focuses on developing a **deep neural network (DNN)** for *
    - [Neural Network Architecture](#model-development)
    - [Training and Optimization](#model-development)
    - [Performance Evaluation](#model-development)
-3. [Deployment on STM32L4R9](#deployment-on-stm32l4r9)
+3. [Failure Type Classification](#failure-type-classification)
+4. [Deployment on STM32L4R9](#deployment-on-stm32l4r9)
 
    
 ## Data Preprocessing
@@ -91,10 +92,48 @@ weighted avg       0.97      0.97      0.97      2000
 
 These results demonstrate **excellent performance**, with a high overall accuracy of **97%**.
 
+
+## Failure Type Classification
+
+Once a failure is detected, we use a second model to determine the **type of failure**.
+
+### Handling Class Imbalance with SMOTE
+Since some failure types (e.g., RNF) have very few samples, we use **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the dataset and improve model performance.
+
+```python
+from imblearn.over_sampling import SMOTE
+smote = SMOTE(random_state=42)
+X_resampled, Y_resampled = smote.fit_resample(X_train, Y_train)
+```
+
+### Neural Network Architecture
+
+The second model is a **multi-class classification model** predicting failure type:
+
+```python
+model2 = Sequential()
+model2.add(Dense(64, input_dim=X_train.shape[1], activation='relu'))
+model2.add(Dropout(0.5))
+model2.add(Dense(32, activation='relu'))
+model2.add(Dropout(0.5))
+model2.add(Dense(16, activation='relu'))
+model2.add(Dense(5, activation='softmax'))
+```
+
+### Performance Evaluation
+
+#### Accuracy and Loss Curves
+![LOSS_curves](screens/LOSS_Precision_V2.png)
+#### Confusion Matrix
+
+The confusion matrix below shows the performance of the second model in classifying failure types:
+
+![Confusion Matrix](screens/confusionV2.png)
+
+We conclude that the dataset was indeed too small to properly train the model. The oversampling method combined with the weighting of underrepresented classes allows for good accuracy during both training and testing. The confusion matrix shows that the model is accurate in classifying failures (values concentrated along the diagonal). It is noted that the model tends to predict a failure even when there isn't one (non-zero values in the bottom row of the confusion matrix). From an industrial perspective, it is preferable to predict a false failure rather than a false absence of failure (as was the case in the training test with non-augmented data). Therefore, the training is deemed satisfactory.
+
 ## Deployment on STM32L4R9
 - Model conversion for embedded execution
 - Integration into **STM32CubeIDE**
 - Testing and validation on the microcontroller
 
-
-In a 2nd part, we implement a model which tries to find the failure among 5 different failures 
