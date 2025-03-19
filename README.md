@@ -96,3 +96,5 @@ These results demonstrate **excellent performance**, with a high overall accurac
 - Integration into **STM32CubeIDE**
 - Testing and validation on the microcontroller
 
+
+In a 2nd part, we implement a model which tries to find the failure among 5 different failures 
