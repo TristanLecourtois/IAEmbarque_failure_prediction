@@ -137,7 +137,7 @@ We conclude that the dataset was indeed too small to properly train the model. T
 The model is deployed on the **STM32L4R9AI** embedded platform using the *CubeIDE* IDE and the *X-Cube-IA* package.  
 The latter takes as input the `.h5` file generated during training in a *Jupyter Notebook*, along with the test files (`X_test.npy` and `Y_test.npy`).
 
-For our first model, we achieved an accuracy of **100%**. You can check the results [here](results.txt).  
+For our first model, we achieved an accuracy of **100%**. You can check the results [here](resultats.txt).  
 
 
 
