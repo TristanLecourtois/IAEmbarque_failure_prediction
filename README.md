@@ -140,4 +140,9 @@ The latter takes as input the `model.h5` file generated during training in a *Ju
 For our first model, we achieved an accuracy of **100%**. You can check the results [here](resultats.txt).  
 
 
+Here are the results of our second model, which detects the type of failure. You can check the results [here](resultats2.txt).   
+
+<img src="screens/resultat2.png" alt="resultats" width="450">
+*Figure 1: Prediction results of the second failure detection model.*
+
 
