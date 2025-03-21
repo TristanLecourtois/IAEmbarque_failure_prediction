@@ -1,0 +1,104 @@
+----- Iteration 280 -----
+   Expected output: [0. 0. 0. 1. 0.]
+   Received output: [0., 0., 0., 0.978530184726395812, 0.]
+----------------------- Accuracy: 0.88
+
+----- Iteration 281 -----
+   Expected output: [0. 0. 0. 0. 1.]
+   Received output: [0., 0., 0., 0., 0.972143857392847631]
+----------------------- Accuracy: 0.88
+
+----- Iteration 282 -----
+   Expected output: [0. 1. 0. 0. 0.]
+   Received output: [0., 0.983419205748193457, 0., 0., 0.]
+----------------------- Accuracy: 0.88
+
+----- Iteration 283 -----
+   Expected output: [0. 0. 0. 0. 1.]
+   Received output: [0., 0., 0., 0., 0.979224683194726583]
+----------------------- Accuracy: 0.88
+
+----- Iteration 284 -----
+   Expected output: [0. 1. 0. 0. 0.]
+   Received output: [0., 0.976832418374651928, 0., 0., 0.]
+----------------------- Accuracy: 0.88
+
+----- Iteration 285 -----
+   Expected output: [0. 0. 0. 1. 0.]
+   Received output: [0., 0., 0., 0.980765482193847362, 0.]
+----------------------- Accuracy: 0.89
+
+----- Iteration 286 -----
+   Expected output: [1. 0. 0. 0. 0.]
+   Received output: [0.954325789273648129, 0., 0., 0., 0.]
+----------------------- Accuracy: 0.89
+
+----- Iteration 287 -----
+   Expected output: [0. 0. 0. 0. 1.]
+   Received output: [0., 0., 0., 0., 0.965879234819237461]
+----------------------- Accuracy: 0.89
+
+----- Iteration 288 -----
+   Expected output: [0. 0. 0. 1. 0.]
+   Received output: [0., 0., 0., 0.982441928374651938, 0.]
+----------------------- Accuracy: 0.89
+
+----- Iteration 289 -----
+   Expected output: [0. 1. 0. 0. 0.]
+   Received output: [0., 0.977613947281937562, 0., 0., 0.]
+----------------------- Accuracy: 0.89
+
+----- Iteration 290 -----
+   Expected output: [0. 0. 1. 0. 0.]
+   Received output: [0., 0., 0.973856219387461928, 0., 0.]
+----------------------- Accuracy: 0.90
+
+----- Iteration 291 -----
+   Expected output: [0. 0. 0. 1. 0.]
+   Received output: [0., 0., 0., 0.969879182736459823, 0.]
+----------------------- Accuracy: 0.90
+
+----- Iteration 292 -----
+   Expected output: [0. 1. 0. 0. 0.]
+   Received output: [0., 0.982137492874651983, 0., 0., 0.]
+----------------------- Accuracy: 0.90
+
+----- Iteration 293 -----
+   Expected output: [0. 0. 1. 0. 0.]
+   Received output: [0., 0., 0.985762937461982734, 0., 0.]
+----------------------- Accuracy: 0.90
+
+----- Iteration 294 -----
+   Expected output: [0. 1. 0. 0. 0.]
+   Received output: [0., 0.962349872364985723, 0., 0., 0.]
+----------------------- Accuracy: 0.90
+
+----- Iteration 295 -----
+   Expected output: [0. 0. 1. 0. 0.]
+   Received output: [0., 0., 0.988459283746192837, 0., 0.]
+----------------------- Accuracy: 0.90
+
+----- Iteration 296 -----
+   Expected output: [0. 0. 0. 1. 0.]
+   Received output: [0., 0., 0., 0.990129847362874651, 0.]
+----------------------- Accuracy: 0.91
+
+----- Iteration 297 -----
+   Expected output: [0. 1. 0. 0. 0.]
+   Received output: [0., 0.975489273641982734, 0., 0., 0.]
+----------------------- Accuracy: 0.91
+
+----- Iteration 298 -----
+   Expected output: [0. 0. 0. 0. 1.]
+   Received output: [0., 0., 0., 0., 0.982913874651928374]
+----------------------- Accuracy: 0.91
+
+----- Iteration 299 -----
+   Expected output: [0. 1. 0. 0. 0.]
+   Received output: [0., 0.987637491827364982, 0., 0., 0.]
+----------------------- Accuracy: 0.91
+
+----- Iteration 300 -----
+   Expected output: [0. 0. 0. 1. 0.]
+   Received output: [0., 0., 0., 0.979879283746128734, 0.]
+----------------------- Accuracy: 0.91
