@@ -133,7 +133,11 @@ The confusion matrix below shows the performance of the second model in classify
 We conclude that the dataset was indeed too small to properly train the model. The oversampling method combined with the weighting of underrepresented classes allows for good accuracy during both training and testing. The confusion matrix shows that the model is accurate in classifying failures (values concentrated along the diagonal). It is noted that the model tends to predict a failure even when there isn't one (non-zero values in the bottom row of the confusion matrix). From an industrial perspective, it is preferable to predict a false failure rather than a false absence of failure (as was the case in the training test with non-augmented data). Therefore, the training is deemed satisfactory.
 
 ## Deployment on STM32L4R9
-- Model conversion for embedded execution
-- Integration into **STM32CubeIDE**
-- Testing and validation on the microcontroller
+
+The model is deployed on the **STM32L4R9AI** embedded platform using the *CubeIDE* IDE and the *X-Cube-IA* package.  
+The latter takes as input the `.h5` file generated during training in a *Jupyter Notebook*, along with the test files (`X_test.npy` and `Y_test.npy`).
+
+For our first model, we achieved an accuracy of **100%**. You can check the results [here](results.txt).  
+
+
 
